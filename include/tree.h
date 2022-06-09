@@ -3,6 +3,10 @@
 #define INCLUDE_TREE_H_
 
 #endif  // INCLUDE_TREE_H_
+#include <vector>
+#include <iostream>
+#include <string>
+
 class Tree {
  private:
     struct Node {
@@ -51,3 +55,4 @@ class Tree {
         return res[num - 1];
     }
 };
+#pragma once
